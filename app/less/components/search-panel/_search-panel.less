@@ -1,0 +1,113 @@
+.search-panel {
+  &:extend(.flex);
+  height: 68px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  background-color: @sidebar-menu-color;
+  width: 100%;
+}
+
+.search-block, .create-tasks-block {
+  &:extend(.center_align);
+  height: 100%;
+}
+
+.search-block {
+  width: 75%;
+  border-right: 1px solid @filter-panel-color;
+  padding: 0 30px;
+}
+
+// форма пошуку
+.search-form {
+  width: 90%;
+  height: 40px;
+  .form-group {
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    input {
+      height: 100%;
+      width: 100%;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: @filter-panel-color;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      padding: 5px 15px;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #a7b3cb;
+        text-align: center;
+        font-size: 14px;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: #a7b3cb;
+        text-align: center;
+        font-size: 14px;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: #a7b3cb;
+        text-align: center;
+        font-size: 14px;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: #a7b3cb;
+        text-align: center;
+        font-size: 14px;
+      }
+      &:focus, &:active {
+        background-color: #ffffff;
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #fff;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: #fff;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: #fff;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: #fff;
+        }
+        &:focus + .search-button, &:active + .search-button {
+          transform: translateX(0%);
+        }
+      }
+    }
+    //кнопка пошуку
+    .search-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      transform: translateX(110%);
+      font: 15px @Roboto-Medium;
+      padding: 0 2em;
+      background-color: @btn-primary-color;
+      color: #fff;
+      border: none !important;
+      outline: none !important;
+      -webkit-transition: transform 0.3s;
+      -moz-transition: transform 0.3s;
+      -ms-transition: transform 0.3s;
+      -o-transition: transform 0.3s;
+      transition: transform 0.3s;
+    }
+  }
+}
+
+// кнопка "Створити задачу"
+.create-tasks-block {
+  width: 25%;
+  border-left: 1px solid @filter-panel-color;
+  .button-success {
+    font: 15px/40px @Roboto-Medium;
+    height: 40px;
+    min-width: 165px;
+  }
+}

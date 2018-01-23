@@ -7,6 +7,7 @@ body{
 	position: relative;
 	overflow-x: hidden;
 	font-family: @Roboto;
+	background-color: @layout-color;
 }
 
 ul, li{
@@ -33,4 +34,37 @@ img{
 	width: auto;
 	max-height: 100%;
 	max-width: 100%;
+}
+
+.button-success, .button-primary, .button-cancel{
+	height: 37px;
+	border-radius: 4px;
+	padding: 0 22px;
+	font-size: 14px;
+	line-height: 37px;
+	text-align: center;
+}
+.button-success{
+	background-color: @btn-success-color;
+	color: #ffffff;
+	&:hover{
+		color: #ffffff;
+		background-color: darken(@btn-success-color, 15%);
+	}
+}
+.button-primary{
+	background-color: @btn-primary-color;
+	color: #ffffff;
+	&:hover{
+		color: #ffffff;
+		background-color: darken(@btn-primary-color, 15%);
+	}
+}
+.button-cancel{
+	background-color: @btn-cancel-color;
+	color: #333333;
+	&:hover{
+		color: #333333;
+		background-color: darken(@btn-cancel-color, 15%);
+	}
 }

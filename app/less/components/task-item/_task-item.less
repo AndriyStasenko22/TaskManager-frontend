@@ -1,0 +1,79 @@
+.task-item{
+  &:extend(.flex);
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  background: @task-bag-color;
+  border-left-width:7px;
+  border-left-color: @urgently-tag-color;
+  border-left-style: solid;
+}
+.task-item-filter-block{
+  width: 45px;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+
+.task-base-info{
+  width: 20%;
+  height: 100%;
+  padding: 15px;
+  .task-project-info{
+    color: #000000;
+    font: 16px @Roboto-Medium;
+    text-transform: uppercase;
+  }
+  .task-author, .task-performer{
+    color: #5a5a5a;
+    font-size: 13px;
+    span{
+      color: #2a2a2a;
+      font-family: Roboto-Medium;
+    }
+  }
+}
+
+.task-description{
+  width: 60%;
+  padding: 15px;
+  text-align: left;
+  .task-title{
+    color: #000000;
+    font: 16px @Roboto-Medium;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .task-info{
+    color: #282828;
+    font-size: 12px;
+  }
+}
+
+
+.task-progress{
+  &:extend(.flex);
+  width: 8%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+  height: 100%;
+  padding: 10px 10px 10px 15px;
+  .task-progress-title{
+    color: #2a2a2a;
+    font: 12px @Roboto-Medium;;
+  }
+  .task-progress-value{
+    color: #999999;
+    font: 10px @Roboto-Medium;
+  }
+  .task-progress-block{
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

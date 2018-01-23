@@ -1,0 +1,31 @@
+.navigation-panel {
+  &:extend(.vertical_align);
+  justify-content: flex-start;
+  width: 100%;
+  height: 30px;
+  padding: 0 20px;
+  background-color: @navigation-panel-color;
+}
+
+.navigation-list {
+  font-size: 0;
+  .navigation-list-item {
+    display: inline-block;
+    &:nth-child(n+1){
+      margin-right: 15px;
+    }
+    &.active a {
+      color: @navigation-active-item-color;
+      font-family: @Roboto-Medium;
+    }
+    a {
+      font: 13px @Roboto;
+      color: @navigation-item-color;
+      letter-spacing: 0.3px;
+      &:hover {
+        color: @navigation-active-item-color;
+        font-family: @Roboto-Medium;
+      }
+    }
+  }
+}

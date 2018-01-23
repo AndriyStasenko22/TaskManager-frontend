@@ -6,3 +6,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.main-layout-content-wrap{
+  &:extend(.flex);
+  height: ~'calc(100% - 30px)';
+  align-items: flex-start;
+}
+.main-layout-content{
+  width: ~'calc(100% - 330px)';
+}
