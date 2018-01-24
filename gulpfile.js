@@ -52,7 +52,12 @@ gulp.task('include', function () {
 gulp.task('scripts', function () {
     return gulp.src([ // Берем все необходимые библиотеки
         'app/libs/jquery/dist/jquery.min.js', // jQuery
-        // 'app/libs/bootstrap/dist/js/bootstrap.min.js', // Bootsrap
+        'app/libs/bootstrap/dist/js/bootstrap.min.js', // Bootsrap
+        'app/libs/moment/min/moment.min.js', // Bootsrap
+        'app/libs/bootstrap-select/dist/js/bootstrap-select.min.js', // Bootsrap
+        'app/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js', // Bootsrap
+        'app/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js', // Bootsrap
+        'app/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js', // Bootsrap
         // 'app/libs/slick-carousel/slick/slick.min.js', //SlickSlider
         // 'app/libs/owl.carousel/dist/owl.carousel.min.js', //OwlCarousel
         // 'app/libs/fancybox/dist/jquery.fancybox.min.js', //FancyBox 3.2

@@ -1,70 +1,180 @@
-html, body{
-	height: 100%;
-	min-height: 100%;
+html, body {
+  height: 100%;
+  min-height: 100%;
 }
 
-body{
-	position: relative;
-	overflow-x: hidden;
-	font-family: @Roboto;
-	background-color: @layout-color;
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: @Roboto;
+  background-color: #fbfbfb;
 }
 
-ul, li{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	&:hover, &:active, &:focus {
-		color: initial;
-		text-decoration: none;
-		outline: none;
-	}
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  &:hover, &:active, &:focus {
+    color: initial;
+    text-decoration: none;
+    outline: none;
+  }
 }
 
-img{
-	height: auto;
-	width: auto;
-	max-height: 100%;
-	max-width: 100%;
+img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
-.button-success, .button-primary, .button-cancel{
-	height: 37px;
-	border-radius: 4px;
-	padding: 0 22px;
-	font-size: 14px;
-	line-height: 37px;
-	text-align: center;
+.button-success, .button-primary, .button-cancel {
+  height: 37px;
+  border-radius: 4px;
+  padding: 0 22px;
+  font: 14px @Roboto-Medium;
+  line-height: 37px;
+  text-align: center;
+  outline: none !important;
+  border: none !important;
+  display: inline-block;
+  &:not(a) {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  }
 }
-.button-success{
-	background-color: @btn-success-color;
-	color: #ffffff;
-	&:hover{
-		color: #ffffff;
-		background-color: darken(@btn-success-color, 15%);
-	}
+
+.button-success {
+  background-color: @btn-success-color;
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+    background-color: darken(@btn-success-color, 15%);
+  }
 }
-.button-primary{
-	background-color: @btn-primary-color;
-	color: #ffffff;
-	&:hover{
-		color: #ffffff;
-		background-color: darken(@btn-primary-color, 15%);
-	}
+
+.button-primary {
+  background-color: @btn-primary-color;
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+    background-color: darken(@btn-primary-color, 15%);
+  }
 }
-.button-cancel{
-	background-color: @btn-cancel-color;
-	color: #333333;
-	&:hover{
-		color: #333333;
-		background-color: darken(@btn-cancel-color, 15%);
-	}
+
+.button-cancel {
+  background-color: @btn-cancel-color;
+  color: #333333;
+  &:hover {
+    color: #333333;
+    background-color: darken(@btn-cancel-color, 15%);
+  }
+}
+
+.form-group {
+  .control-label {
+    color: #000000;
+    font: 15px @Roboto-Medium;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    border-color: #d9d9d9;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 13px;
+    &:not(textarea) {
+      height: 35px;
+      padding: 0 13px;
+    }
+  }
+}
+
+input, button, select, textarea {
+  appearance: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+}
+
+.task-status {
+  height: 26px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  line-height: 24px;
+  text-align: center;
+  padding: 0 20px;
+  display: inline-block;
+  font-size: 11px;
+  color: #000000;
+  position: relative;
+  .remove {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    line-height: 1;
+    cursor: pointer;
+    color: #777;
+  }
+}
+
+.checkbox-block {
+  label {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+    input {
+      display: none;
+      width: 100%;
+    }
+    input + span {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: block;
+      height: 16px;
+      width: 16px;
+      border-radius: 2px;
+      border: 1px solid #b4b4b4;
+      cursor: pointer;
+      background-color: #ffffff;
+      &:before {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        line-height: 16px;
+        top: -1px;
+        left: -1px;
+        text-align: center;
+        content: '\f00c';
+        display: block;
+        font: 11px/16px "FontAwesome";
+        transform: scale(0);
+        transition: transform 0.4s;
+        background-color: transparent;
+        color: #323a4a;
+      }
+    }
+    input:checked + span {
+      &:before {
+        transform: scale(1);
+      }
+    }
+  }
 }

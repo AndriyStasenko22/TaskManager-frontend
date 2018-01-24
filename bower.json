@@ -27,6 +27,8 @@
     "jqueryui-touch-punch": "*"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "bootstrap-select": "^1.12.4",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
   }
 }

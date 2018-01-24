@@ -1,0 +1,113 @@
+<div class="create-task">
+    <form action="" class="create-task-form">
+        <div class="task-header-block">
+            <div class="task-header-title">Создать новую задачу</div>
+            <div class="task-header-info">
+                <div class="create-task-date"><i class="fa fa-calendar"></i>18.03.2018</div>
+                <div class="create-task-time"><i class="fa fa-clock-o"></i>13:48</div>
+                <div class="create-task-primary-number">№ 00001</div>
+            </div>
+        </div>
+        <div class="task-form-content">
+            <div class="form-left-column">
+                <div class="task-form-wrap">
+                    <div class="form-group">
+                        <label class="control-label" for="task-project">Проект</label>
+                        <select id="task-project" class="form-control selectpicker" name="">
+                            <option value="0">Android Rikato</option>
+                            <option value="1">Qr менеджер</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-heading">Проект</label>
+                        <input type="text" id="task-heading" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-description">Проект</label>
+                        <textarea name="" id="task-description" rows="5" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="task-form-status-block">
+
+                    <div class="task-create-status">
+                        <div class="task-create-status-title">Состояние</div>
+                        <ul class="task-create-status-list">
+                            <li class="dropdown">
+                                <a href="#" class="create-task-status-button" id="dropdownMenu1" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="true"><i class="fa fa-plus-square-o"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#" style="border-left: 5px solid  #ff5252;">Открыт</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#" style="border-left: 5px solid  #aeea00;">В работе</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#" style="border-left: 5px solid  #ffd54f;">Выполнен</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="task-form-status-list">
+                        <li class="task-form-status-item">
+                            <div class="task-status" style="background-color: #ff5252;">Открыт <span class="remove"><i class="fa fa-times"></i></span></div>
+                            <input type="hidden" value="0">
+                        </li>
+                        <li class="task-form-status-item">
+                            <div class="task-status" style="background-color: #aeea00;">В работе <span class="remove"><i class="fa fa-times"></i></span></div>
+                            <input type="hidden" value="1">
+                        </li>
+                        <li class="task-form-status-item">
+                            <div class="task-status" style="background-color: #ffd54f;">Выполнен <span class="remove"><i class="fa fa-times"></i></span></div>
+                            <input type="hidden" value="3">
+                        </li>
+                    </ul>
+                </div>
+                <div class="task-form-files-block">
+                    <a href="#" class="button-primary">Прикрепить файл</a>
+                </div>
+            </div>
+            <div class="form-right-column">
+                <div class="task-form-select-block">
+                    <div class="form-group">
+                        <label class="control-label" for="task-priority">Приоритет</label>
+                        <select id="task-priority" class="form-control selectpicker" name="">
+                            <option value="0">Высокий</option>
+                            <option value="1">Обычный</option>
+                            <option value="2">Низкий</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-type">Тип</label>
+                        <select id="task-type" class="form-control selectpicker" name="">
+                            <option value="0">Ошибка</option>
+                            <option value="1">Разаработка</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-performer">Исполнитель</label>
+                        <select id="task-performer" class="form-control selectpicker" name="">
+                            <option value="0">Нет исполнителя</option>
+                            <option value="1">Олександр Адрухов</option>
+                            <option value="2">Андрій Стасенко</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-lead-time">Время выполнения</label>
+                        <input type='text' class="form-control" id="task-lead-time" placeholder="5 часов"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="task-lead-date">Дата выполнения</label>
+                        <input type='text' class="form-control" id="task-lead-date" data-date-format="mm.dd.yyyy"
+                               data-provide="datepicker" placeholder="01.01.2018"/>
+                    </div>
+                </div>
+                <div class="task-form-clear-block">
+                    <a href="#" class="task-form-clear-button"><i class="fa fa-trash-o"></i> Очистить черновик</a>
+                </div>
+                <div class="task-form-button-block">
+                    <a href="#" class="btn button-cancel">Закрыть</a>
+                    <button class="btn button-success">Создать задачу</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
