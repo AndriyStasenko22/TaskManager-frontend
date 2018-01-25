@@ -1,0 +1,178 @@
+.pjax-block {
+  margin-bottom: 70px;
+  #edit-profile-form, #pjax-container {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .modal-form-close {
+    display: none;
+  }
+}
+
+#edit-profile-form, #pjax-container {
+  display: none;
+  position: relative;
+}
+
+#registration-form, #login-form {
+  opacity: 0;
+  animation: fadeInUp 1s 0.3s forwards;
+}
+
+.fancybox-slide--current {
+  #edit-profile-form, #pjax-container {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fancybox-slide {
+  background-color: transparent;
+}
+
+#edit-profile-form, #pjax-container {
+  -webkit-transform: translateY(-10%);
+  transform: translateY(-10%);
+  transition: transform 0.5s ease;
+}
+
+.ui-common-form {
+  width: 400px;
+  position: relative;
+  box-shadow: 4px 4px 9px rgba(1, 1, 1, 0.41);
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.ui-common-form-header {
+  height: 130px;
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  padding: 0 16px 24px;
+  display: block;
+  background-color: #4c576c;
+  .form-header-title {
+    font: 20px/65px @Roboto-Bold;
+  }
+}
+
+.ui-common-authorization-header {
+  background-color: #fff;
+  padding: 24px;
+  font: 20px @Roboto-Medium;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  .form-header-title {
+    font: 20px/30px @Roboto;
+    margin-top: 48px;
+    text-transform: uppercase;
+  }
+}
+
+.ui-common-company-logo {
+  img {
+    height: 100px;
+  }
+}
+
+.form-button-block {
+  &:extend(.center_align);
+  width: 100%;
+  margin-top: 30px;
+  & > * {
+    margin: 0 15px;
+  }
+}
+
+.edit-profile-logo {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
+
+.edit-profile-body{
+  padding-top: 48px !important;
+}
+.ui-common-form-body {
+  background-color: #fff;
+  padding: 24px;
+  .form-group.has-error {
+    .input-underline .input-ripple {
+      background-color: #a94442;
+      transform: scaleX(1);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .form-control {
+    border: none !important;
+    box-shadow: none !important;
+    .btn-default {
+      background-color: #ffffff !important;
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+      padding: 0 !important;
+      height: 33px !important;
+    }
+    &:focus + .input-underline .input-ripple {
+      transform: scaleX(1);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .input-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .12);
+  }
+  .input-ripple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform-origin: 50%;
+    transform: scaleX(.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+    background-color: #3c4252;
+  }
+}
+
+.fancybox-slide > div {
+  overflow: visible;
+  padding: 0;
+  background-color: transparent;
+}
+
+.fancybox-is-open .fancybox-bg {
+  background-color: rgba(0, 0, 0, .6);
+  opacity: .8;
+}
+
+.fancybox-close-small {
+  height: 40px;
+  width: 40px;
+  top: 5px;
+  right: 5px;
+  &:after {
+    font-size: 30px;
+  }
+}

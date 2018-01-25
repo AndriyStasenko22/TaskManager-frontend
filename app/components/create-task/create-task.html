@@ -28,38 +28,24 @@
                     </div>
                 </div>
                 <div class="task-form-status-block">
-
-                    <div class="task-create-status">
-                        <div class="task-create-status-title">Состояние</div>
-                        <ul class="task-create-status-list">
-                            <li class="dropdown">
-                                <a href="#" class="create-task-status-button" id="dropdownMenu1" data-toggle="dropdown"
-                                   aria-haspopup="true" aria-expanded="true"><i class="fa fa-plus-square-o"></i></a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#" style="border-left: 5px solid  #ff5252;">Открыт</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#" style="border-left: 5px solid  #aeea00;">В работе</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#" style="border-left: 5px solid  #ffd54f;">Выполнен</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="form-group checkbox-status">
+                        <label>
+                            <input type="checkbox" class="form-control" name=""><span
+                                style="border-color: #ff5252;" data-color="#ff5252">Открыт</span>
+                        </label>
                     </div>
-
-                    <ul class="task-form-status-list">
-                        <li class="task-form-status-item">
-                            <div class="task-status" style="background-color: #ff5252;">Открыт <span class="remove"><i class="fa fa-times"></i></span></div>
-                            <input type="hidden" value="0">
-                        </li>
-                        <li class="task-form-status-item">
-                            <div class="task-status" style="background-color: #aeea00;">В работе <span class="remove"><i class="fa fa-times"></i></span></div>
-                            <input type="hidden" value="1">
-                        </li>
-                        <li class="task-form-status-item">
-                            <div class="task-status" style="background-color: #ffd54f;">Выполнен <span class="remove"><i class="fa fa-times"></i></span></div>
-                            <input type="hidden" value="3">
-                        </li>
-                    </ul>
+                    <div class="form-group checkbox-status">
+                        <label>
+                            <input type="checkbox" class="form-control" name=""><span
+                                style="border-color: #aeea00;" data-color="#aeea00">В работе</span>
+                        </label>
+                    </div>
+                    <div class="form-group checkbox-status">
+                        <label>
+                            <input type="checkbox" class="form-control" name=""><span
+                                style="border-color: #ffd54f;" data-color="#ffd54f">Выполнен</span>
+                        </label>
+                    </div>
                 </div>
                 <div class="task-form-files-block">
                     <a href="#" class="button-primary">Прикрепить файл</a>

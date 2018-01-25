@@ -14,12 +14,14 @@
 }
 
 .user-profile-logo {
-  height: 45px;
-  width: 45px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
   margin-right: 9px;
+  img {
+    height: 45px;
+    width: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
 }
 
 .user-profile-name {
@@ -36,31 +38,42 @@
   position: absolute;
   top: 11px;
   right: 11px;
-}
-
-.user-profile-action-wrap {
-  position: relative;
-}
-
-.user-profile-action-button {
-  color: #fff;
-  font-size: 16px;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  display: inline-block;
-  text-align: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  transform: translate(5px, -5px);
-  &:hover {
+  .user-profile-action-wrap {
+    position: relative;
+  }
+  .user-profile-action-button {
     color: #fff;
-    background-color: fade(#fff, 10%);
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transform: translate(5px, -5px);
+    &:hover {
+      color: #fff;
+      background-color: fade(#fff, 10%);
+    }
+  }
+  .user-profile-options-list {
+    margin-top: 0;
+    float: none;
+    right: 0;
+    left: auto;
+    li {
+      display: block;
+      a {
+        font-family: @Roboto-Medium;
+        padding: 7px 10px;
+      }
+    }
   }
 }
 
-.sidebar-menu-item-list {
+.sidebar-menu-list {
   width: 100%;
   .sidebar-menu-item-block {
     width: 100%;
@@ -70,6 +83,9 @@
       }
       & > .sidebar-menu-item-list > li > a {
         height: 28px;
+      }
+      & .show-other-item-button {
+        height: auto;
       }
     }
     .sidebar-menu-item-title {
@@ -142,6 +158,11 @@
   transition: heigth 0.3s;
   & > li {
     width: 100%;
+    &.active > a {
+      background-color: @sidebar-title-list-color;
+      color: #fff;
+      box-shadow: 0px 0px 0px 2px rgba(4, 10, 23, 0.15);
+    }
     & > a {
       &:extend(.vertical_align);
       overflow: hidden;
@@ -170,5 +191,21 @@
     height: 10px;
     display: inline-block;
 
+  }
+}
+
+.show-other-item-button {
+  width: 100%;
+  text-align: center;
+  height: 0;
+  display: none;
+
+  .show-button {
+    color: #d2d7dc;
+    font: 13px/30px @Roboto-Medium;
+    letter-spacing: 0.3px;
+    .fa {
+      font-size: 10px;
+    }
   }
 }

@@ -1,17 +1,26 @@
 //Базовий шаблон
 
-.main-layout{
+.main-layout {
   height: 100%;
   &:extend(.flex);
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.main-layout-content-wrap{
+.main-layout-content-wrap {
   &:extend(.flex);
   height: ~'calc(100% - 30px)';
   align-items: flex-start;
 }
-.main-layout-content{
+
+.main-layout-content {
   width: ~'calc(100% - 330px)';
+}
+
+.authorization-layout{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  &:extend(.center_align, .bgi-center);
+  background-image: url('/img/icon/dark-material-bg.jpg');
 }

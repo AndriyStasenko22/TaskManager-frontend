@@ -60,7 +60,7 @@ gulp.task('scripts', function () {
         'app/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js', // Bootsrap
         // 'app/libs/slick-carousel/slick/slick.min.js', //SlickSlider
         // 'app/libs/owl.carousel/dist/owl.carousel.min.js', //OwlCarousel
-        // 'app/libs/fancybox/dist/jquery.fancybox.min.js', //FancyBox 3.2
+        'app/libs/fancybox/dist/jquery.fancybox.min.js', //FancyBox 3.2
         // 'app/libs/fancybox-2.1.7/source/jquery.fancybox.js', //FancyBox
         // 'app/libs/jquery-mousewheel/jquery.mousewheel.min.js',
         // 'app/libs/wow/dist/wow.min.js', // Wow.js

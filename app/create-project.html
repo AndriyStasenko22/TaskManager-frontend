@@ -243,22 +243,12 @@
                 </div>
             </div>
 
-
-            <!-- Список задач-->
-            <!--    ************************************   -->
-
-            <!-- Блок фільтрів -->
-            <!--//=include ../components/filter-panel/filter-panel.html-->
-
-            <!-- Список завдань -->
-            <!--//=include ../components/task-item/task-item.html-->
-
-            <!-- Створення задач-->
+            <!-- Створення нового проекта-->
             <!--    ************************************   -->
             <div class="create-task">
                 <form action="" class="create-task-form">
                     <div class="task-header-block">
-                        <div class="task-header-title">Создать новую задачу</div>
+                        <div class="task-header-title">Создать новой порект</div>
                         <div class="task-header-info">
                             <div class="create-task-date"><i class="fa fa-calendar"></i>18.03.2018</div>
                             <div class="create-task-time"><i class="fa fa-clock-o"></i>13:48</div>
@@ -269,82 +259,17 @@
                         <div class="form-left-column">
                             <div class="task-form-wrap">
                                 <div class="form-group">
-                                    <label class="control-label" for="task-project">Проект</label>
-                                    <select id="task-project" class="form-control selectpicker" name="">
-                                        <option value="0">Android Rikato</option>
-                                        <option value="1">Qr менеджер</option>
-                                    </select>
+                                    <label class="control-label">Название проекта</label>
+                                    <input type="text" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label" for="task-heading">Проект</label>
-                                    <input type="text" id="task-heading" class="form-control">
+                                    <label class="control-label">Краткое название</label>
+                                    <input type="text" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label" for="task-description">Проект</label>
+                                    <label class="control-label" for="task-description">Описание</label>
                                     <textarea name="" id="task-description" rows="5" class="form-control"></textarea>
                                 </div>
-                            </div>
-                            <div class="task-form-status-block">
-                                <div class="form-group checkbox-status">
-                                    <label>
-                                        <input type="checkbox" class="form-control" name=""><span
-                                            style="border-color: #ff5252;" data-color="#ff5252">Открыт</span>
-                                    </label>
-                                </div>
-                                <div class="form-group checkbox-status">
-                                    <label>
-                                        <input type="checkbox" class="form-control" name=""><span
-                                            style="border-color: #aeea00;" data-color="#aeea00">В работе</span>
-                                    </label>
-                                </div>
-                                <div class="form-group checkbox-status">
-                                    <label>
-                                        <input type="checkbox" class="form-control" name=""><span
-                                            style="border-color: #ffd54f;" data-color="#ffd54f">Выполнен</span>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="task-form-files-block">
-                                <a href="#" class="button-primary">Прикрепить файл</a>
-                            </div>
-                        </div>
-                        <div class="form-right-column">
-                            <div class="task-form-select-block">
-                                <div class="form-group">
-                                    <label class="control-label" for="task-priority">Приоритет</label>
-                                    <select id="task-priority" class="form-control selectpicker" name="">
-                                        <option value="0">Высокий</option>
-                                        <option value="1">Обычный</option>
-                                        <option value="2">Низкий</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label" for="task-type">Тип</label>
-                                    <select id="task-type" class="form-control selectpicker" name="">
-                                        <option value="0">Ошибка</option>
-                                        <option value="1">Разаработка</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label" for="task-performer">Исполнитель</label>
-                                    <select id="task-performer" class="form-control selectpicker" name="">
-                                        <option value="0">Нет исполнителя</option>
-                                        <option value="1">Олександр Адрухов</option>
-                                        <option value="2">Андрій Стасенко</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label" for="task-lead-time">Время выполнения</label>
-                                    <input type='text' class="form-control" id="task-lead-time" placeholder="5 часов"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label" for="task-lead-date">Дата выполнения</label>
-                                    <input type='text' class="form-control" id="task-lead-date" data-date-format="mm.dd.yyyy"
-                                           data-provide="datepicker" placeholder="01.01.2018"/>
-                                </div>
-                            </div>
-                            <div class="task-form-clear-block">
-                                <a href="#" class="task-form-clear-button"><i class="fa fa-trash-o"></i> Очистить черновик</a>
                             </div>
                             <div class="task-form-button-block">
                                 <a href="#" class="btn button-cancel">Закрыть</a>
@@ -352,6 +277,7 @@
                             </div>
                         </div>
                     </div>
+            
                 </form>
             </div>
 

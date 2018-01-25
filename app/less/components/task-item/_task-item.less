@@ -12,7 +12,7 @@
   border-left-style: solid;
   box-shadow: 0px 0px 10px fade(#777, 50%);
 }
-.task-item-filter-block{
+.task-item-filter-block, .personal-item-filter-block{
   cursor: pointer;
   &:extend(.center_align);
   flex-direction: column;
@@ -99,6 +99,10 @@
     font: 16px @Roboto-Medium;
     text-transform: uppercase;
     margin-bottom: 5px;
+    .fa{
+      font-size: 20px;
+      margin-left: 10px;
+    }
   }
   .task-info{
     color: #282828;
@@ -135,8 +139,10 @@
 .filter-action-button-list{
   font-size: 0;
   width: auto;
-  li{
+  &>li{
+    position: relative;
     display: inline-block;
+    vertical-align: top;
     &:nth-child(n+1){
       margin-left: 1px;
     }
@@ -160,7 +166,8 @@
   height: 30px;
   border: 1px solid #323847;
   background-color: #f7fafc;
-  font-size: 17px;
+  font-size: 16px;
+  line-height: 30px;
   color: #505a6c;
   padding: 0;
   -webkit-transition: background-color 0.3s;
@@ -169,7 +176,22 @@
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  &:hover, &:active{
+    background-color: darken(#f7fafc, 5%);
+    color: #505a6c;
+  }
+  .fa-caret-down{
+    font-size: 10px;
+    vertical-align: middle;
+  }
+}
+
+.filter-sorter-button{
+  font-size: 15px;
+  color: #f7fafc;
   &:hover{
-    background-color: darken(#f7fafc, 5%)
+    color:darken(#f7fafc, 10%);
   }
 }

@@ -163,34 +163,46 @@
 .task-form-status-block {
   &:extend(.flex);
   justify-content: flex-end;
-  .task-form-status-list {
-    font-size: 0;
-    width: auto;
-    .task-form-status-item {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  }
 
-  .task-create-status{
-    &:extend(.flex);
-    align-items: center;
-    margin-right: 10px;
-    .task-create-status-title{
-      color: #9f9f9f;
-      font:12px @Roboto-Medium;
-      margin-right: 5px;
-    }
-    .create-task-status-button{
-      .fa{
-        font-size: 20px;
-        position: relative;
-        color: #9db8e9;
-        top: 2px;
-        &:hover{
-          color: darken(#9db8e9, 15%);
-        }
+  .checkbox-status{
+    margin-left: 10px;
+    label {
+      position: relative;
+      min-width: 90px;
+      height: 26px;
+      margin-bottom: 0;
+      input {
+        display: none;
+        width: 100%;
       }
+      input + span {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 26px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: transparent;
+        text-align: center;
+        padding: 0 20px;
+        display: inline-block;
+        font: 11px/24px @Roboto-Medium;
+        color: #000000;
+        cursor: pointer;
+        border: 1px solid;
+        -webkit-transition: background-color 0.3s;
+        -moz-transition: background-color 0.3s;
+        -ms-transition: background-color 0.3s;
+        -o-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+      }
+      //input:checked+ span{
+      //  background-color: red;
+      //}
+      //input:disabled + span{
+      //  cursor: default;
+      //  opacity: .5;
+      //}
     }
   }
 }

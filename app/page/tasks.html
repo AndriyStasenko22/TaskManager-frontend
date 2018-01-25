@@ -11,10 +11,11 @@
 </head>
 <body>
 
-<!-- Базовий шаблон -->
 <div class="main-layout">
+
     <!-- Редагування профіля-->
     //=include ../components/modal_form/edit-profile.html
+
     <!-- Навігаційна панель -->
     //=include ../components/navigation-panel/navigation-panel.html
     <div class="main-layout-content-wrap">
@@ -29,20 +30,20 @@
 
             <!-- Список задач-->
             <!--    ************************************   -->
-
-            <!-- Блок фільтрів -->
-            <!--//=include ../components/filter-panel/filter-panel.html-->
-
-            <!-- Список завдань -->
-            <!--//=include ../components/task-item/task-item.html-->
-
-            <!-- Створення задач-->
-            <!--    ************************************   -->
-            //=include ../components/create-task/create-task.html
-
+            <div class="tasks-list-wrap">
+                <!--Блок фільтрів -->
+                //=include ../components/filter-panel/filter-panel.html
+                <div class="tasks-list">
+                    //=include ../components/task-item/task-item.html
+                    //=include ../components/task-item/task-item.html
+                    //=include ../components/task-item/task-item.html
+                    //=include ../components/task-item/task-item.html
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 </body>
 <script src="js/libs.min.js"></script>
 <script src="js/comon.js"></script>

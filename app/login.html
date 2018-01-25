@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>Voger</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<!-- Навігаційна панель -->
+
+<!--форма редагування данних користувача-->
+<div id="edit-profile-form">
+    <div class="ui-common-form">
+        <div class="ui-common-form-header">
+            <div class="form-header-title">Редактировать профиль</div>
+            <div class="edit-profile-logo"><img src="/img/icon/user.jpg" alt=""></div>
+        </div>
+        <div class="ui-common-form-body">
+            <form action="" class="common-form">
+                <div class="form-group">
+                    <label class="control-label">ФИО</label>
+                    <input type="text" class="form-control" placeholder="ФИО" value="Стасенко Андрій">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail" value="andriystasenko22@gmail.com">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Телефон</label>
+                    <input type="text" class="form-control" placeholder="Телефон" value="0635600951">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <button class="button-primary" type="submit">Подтвердить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--форма реєстрації-->
+<div id="registration-form">
+    <div class="ui-common-form">
+        <!--<div class="ui-common-form-header">-->
+            <!--<div class="form-header-title">Редактировать профиль</div>-->
+            <!--<div class="edit-profile-logo"><img src="/img/icon/user.jpg" alt=""></div>-->
+        <!--</div>-->
+        <div class="ui-common-form-body">
+            <form action="" class="common-form">
+                <div class="form-group">
+                    <label class="control-label">ФИО</label>
+                    <input type="text" class="form-control" placeholder="ФИО" value="Стасенко Андрій">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail" value="andriystasenko22@gmail.com">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Телефон</label>
+                    <input type="text" class="form-control" placeholder="Телефон" value="0635600951">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <button class="button-primary" type="submit">Подтвердить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--форма авторизації-->
+<div id="login-form">
+    <div class="ui-common-form">
+        <!--<div class="ui-common-form-header">-->
+            <!--<div class="form-header-title">Редактировать профиль</div>-->
+            <!--<div class="edit-profile-logo"><img src="/img/icon/user.jpg" alt=""></div>-->
+        <!--</div>-->
+        <div class="ui-common-form-body">
+            <form action="" class="common-form">
+                <div class="form-group">
+                    <label class="control-label">ФИО</label>
+                    <input type="text" class="form-control" placeholder="ФИО" value="Стасенко Андрій">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail" value="andriystasenko22@gmail.com">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Телефон</label>
+                    <input type="text" class="form-control" placeholder="Телефон" value="0635600951">
+                    <div class="input-underline"><span class="input-ripple"></span></div>
+                </div>
+                <button class="button-primary" type="submit">Подтвердить</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Базовий шаблон -->
+<div class="main-layout">
+
+    <!-- Навігаційна панель -->
+    <div class="navigation-panel">
+        <ul class="navigation-list">
+            <li class="navigation-list-item"><a href="#">Проекты</a></li>
+            <li class="navigation-list-item active"><a href="index.html">Задачи</a></li>
+            <li class="navigation-list-item"><a href="#">Сотрудники</a></li>
+            <li class="navigation-list-item"><a href="#">Теги</a></li>
+        </ul>
+    </div>
+    <div class="main-layout-content-wrap">
+
+        <!-- Бокове меню -->
+        <div class="sidebar-menu">
+            <div class="user-profile-block">
+                <div class="user-profile-logo">
+                    <img src="/img/icon/user.jpg" alt="">
+                </div>
+                <div class="user-profile-info">
+                    <div class="user-profile-name">Мой профиль</div>
+                    <div class="user-profile-email">wingsglass@gmail.com</div>
+                </div>
+                <div class="user-profile-action-block">
+                    <div class="user-profile-action-wrap">
+                        <a href="#" class="user-profile-action-button" data-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+                        <ul class="user-profile-options-list dropdown-menu">
+                            <li><a data-fancybox data-src="#edit-profile-form" href="javascript:;"><i class="fa fa-pencil"></i> Редактировать</a></li>
+                            <li><a href="#"><i class="fa fa-sign-out"></i> Выйти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ul class="sidebar-menu-list">
+                <li class="sidebar-menu-item-block">
+                    <div class="sidebar-menu-item-title">
+                        <div class="text">Проекты
+                            <a href="#" class="add-button add-project"><i class="fa fa-plus-square-o"></i></a>
+                        </div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <ul class="sidebar-menu-item-list project-list">
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Android Rikato</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Qr менеджер</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Android Rikato</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">4</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Qr менеджер</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">5</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--<div class="show-other-item-button">-->
+                        <!--<a href="#" class="show-button button-down">Еще <span class="item-number"></span> <i class="fa fa-caret-down"></i></a>-->
+                    <!--</div>-->
+                </li>
+                <li class="sidebar-menu-item-block">
+                    <div class="sidebar-menu-item-title">
+                        <div class="text">Состояние
+                            <a href="#" class="add-button add-tag"><i class="fa fa-plus-square-o"></i></a></div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <ul class="sidebar-menu-item-list tags-list">
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa" style="background-color: #ff5252;"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Открыт</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa" style="background-color: #aeea00;"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">В работе</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="sidebar-menu-item-info">
+                                    <span class="sidebar-menu-item-icon">
+                                        <i class="fa" style="background-color: #ffd54f;"></i>
+                                    </span>
+                                    <span class="sidebar-menu-item-text">Выполнен</span>
+                                </div>
+                                <div class="sidebar-menu-item-count">4</div>
+                            </a>
+                        </li>
+                    </ul>
+        
+        
+                </li>
+                <li class="sidebar-menu-item-block">
+                    <div class="sidebar-menu-item-title">
+                        <div class="text">Сохраненные поиски</div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </li>
+                <li class="sidebar-menu-item-block">
+                    <div class="sidebar-menu-item-title">
+                        <div class="text">Фильтры</div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-layout-content">
+            <!-- Блок пошуку та створення завдання -->
+            <div class="search-panel">
+                <div class="search-block">
+                    <form action="" class="search-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Найдите задачу, тег, пользователя">
+                            <button class="search-button">Найти</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="create-tasks-block">
+                    <a href="create-task.html" class="button-success">Создать задачу</a>
+                </div>
+            </div>
+
+
+            <!-- Список задач-->
+            <!--    ************************************   -->
+
+
+             <!--Список завдань -->
+            <div class="tasks-list-wrap">
+                <!--Блок фільтрів -->
+                <div class="filter-panel">
+                    <div class="filter-action-block">
+                        <div class="form-group checkbox-block">
+                            <label>
+                                <input type="checkbox" class="form-control" name=""><span></span>
+                            </label>
+                        </div>
+                        <div class="filter-action-button-block">
+                            <ul class="filter-action-button-list">
+                                <li>
+                                    <button class="filter-action-button"><i class="fa fa-tag"></i></button>
+                                </li>
+                                <li>
+                                    <button class="filter-action-button"><i class="fa fa-trash-o"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tasks-summary-info">
+                        <ul class="tasks-summary-info-list">
+                            <li>
+                                <div class="tasks-summary-info-title">Всего задач</div>
+                                <div class="tasks-summary-info-total">13</div>
+                            </li>
+                            <li>
+                                <div class="tasks-summary-info-title">Выполнено</div>
+                                <div class="tasks-summary-info-total">7</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tasks-list">
+                    <div class="task-item">
+                        <div class="task-item-filter-block">
+                            <div class="form-group checkbox-block">
+                                <label>
+                                    <input type="checkbox" class="form-control" name=""><span></span>
+                                </label>
+                            </div>
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    
+                        <div class="task-base-info">
+                            <div class="task-base-info-top">
+                                <div class="task-project-info">Qr менеджер android</div>
+                                <div class="task-author"><span>Создатель</span> Петро Рожок</div>
+                                <div class="task-create-time-info">
+                                    <i class="fa fa-calendar"></i>18.03.2018<br><i class="fa fa-clock-o"></i>13:48
+                                </div>
+                                <div class="task-number">№ 00001</div>
+                            </div>
+                            <div class="task-base-info-bottom">
+                                <div class="task-performer">
+                                    <span>Исполнитель </span><i class="fa fa-user"></i> Саша Андрухов
+                                </div>
+                                <div class="task-work-date">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                                <div class="task-work-time">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-description">
+                            <div class="task-title">Редизайн</div>
+                            <div class="task-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                                quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </div>
+                        </div>
+                        <div class="task-progress">
+                            <div class="task-progress-info">
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Изменино</div>
+                                    <div class="task-progress-value">18.03.2018 13:48</div>
+                                </div>
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Тип</div>
+                                    <div class="task-progress-value">Ошибка</div>
+                                </div>
+                            </div>
+                            <ul class="task-tags-list">
+                                <li class="task-status" style="background-color:#aeea00;">В работе</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-item-filter-block">
+                            <div class="form-group checkbox-block">
+                                <label>
+                                    <input type="checkbox" class="form-control" name=""><span></span>
+                                </label>
+                            </div>
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    
+                        <div class="task-base-info">
+                            <div class="task-base-info-top">
+                                <div class="task-project-info">Qr менеджер android</div>
+                                <div class="task-author"><span>Создатель</span> Петро Рожок</div>
+                                <div class="task-create-time-info">
+                                    <i class="fa fa-calendar"></i>18.03.2018<br><i class="fa fa-clock-o"></i>13:48
+                                </div>
+                                <div class="task-number">№ 00001</div>
+                            </div>
+                            <div class="task-base-info-bottom">
+                                <div class="task-performer">
+                                    <span>Исполнитель </span><i class="fa fa-user"></i> Саша Андрухов
+                                </div>
+                                <div class="task-work-date">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                                <div class="task-work-time">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-description">
+                            <div class="task-title">Редизайн</div>
+                            <div class="task-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                                quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </div>
+                        </div>
+                        <div class="task-progress">
+                            <div class="task-progress-info">
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Изменино</div>
+                                    <div class="task-progress-value">18.03.2018 13:48</div>
+                                </div>
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Тип</div>
+                                    <div class="task-progress-value">Ошибка</div>
+                                </div>
+                            </div>
+                            <ul class="task-tags-list">
+                                <li class="task-status" style="background-color:#aeea00;">В работе</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-item-filter-block">
+                            <div class="form-group checkbox-block">
+                                <label>
+                                    <input type="checkbox" class="form-control" name=""><span></span>
+                                </label>
+                            </div>
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    
+                        <div class="task-base-info">
+                            <div class="task-base-info-top">
+                                <div class="task-project-info">Qr менеджер android</div>
+                                <div class="task-author"><span>Создатель</span> Петро Рожок</div>
+                                <div class="task-create-time-info">
+                                    <i class="fa fa-calendar"></i>18.03.2018<br><i class="fa fa-clock-o"></i>13:48
+                                </div>
+                                <div class="task-number">№ 00001</div>
+                            </div>
+                            <div class="task-base-info-bottom">
+                                <div class="task-performer">
+                                    <span>Исполнитель </span><i class="fa fa-user"></i> Саша Андрухов
+                                </div>
+                                <div class="task-work-date">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                                <div class="task-work-time">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-description">
+                            <div class="task-title">Редизайн</div>
+                            <div class="task-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                                quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </div>
+                        </div>
+                        <div class="task-progress">
+                            <div class="task-progress-info">
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Изменино</div>
+                                    <div class="task-progress-value">18.03.2018 13:48</div>
+                                </div>
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Тип</div>
+                                    <div class="task-progress-value">Ошибка</div>
+                                </div>
+                            </div>
+                            <ul class="task-tags-list">
+                                <li class="task-status" style="background-color:#aeea00;">В работе</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-item-filter-block">
+                            <div class="form-group checkbox-block">
+                                <label>
+                                    <input type="checkbox" class="form-control" name=""><span></span>
+                                </label>
+                            </div>
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    
+                        <div class="task-base-info">
+                            <div class="task-base-info-top">
+                                <div class="task-project-info">Qr менеджер android</div>
+                                <div class="task-author"><span>Создатель</span> Петро Рожок</div>
+                                <div class="task-create-time-info">
+                                    <i class="fa fa-calendar"></i>18.03.2018<br><i class="fa fa-clock-o"></i>13:48
+                                </div>
+                                <div class="task-number">№ 00001</div>
+                            </div>
+                            <div class="task-base-info-bottom">
+                                <div class="task-performer">
+                                    <span>Исполнитель </span><i class="fa fa-user"></i> Саша Андрухов
+                                </div>
+                                <div class="task-work-date">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                                <div class="task-work-time">
+                                    <span>Дата Выполнения</span><br>01.03.2018
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-description">
+                            <div class="task-title">Редизайн</div>
+                            <div class="task-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                                quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </div>
+                        </div>
+                        <div class="task-progress">
+                            <div class="task-progress-info">
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Изменино</div>
+                                    <div class="task-progress-value">18.03.2018 13:48</div>
+                                </div>
+                                <div class="task-progress-block">
+                                    <div class="task-progress-title">Тип</div>
+                                    <div class="task-progress-value">Ошибка</div>
+                                </div>
+                            </div>
+                            <ul class="task-tags-list">
+                                <li class="task-status" style="background-color:#aeea00;">В работе</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="js/libs.min.js"></script>
+<script src="js/comon.js"></script>
+</html>

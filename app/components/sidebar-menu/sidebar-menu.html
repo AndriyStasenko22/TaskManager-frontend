@@ -1,7 +1,7 @@
 <div class="sidebar-menu">
     <div class="user-profile-block">
         <div class="user-profile-logo">
-            <img src="/img/icon/authorization-logo.png" alt="">
+            <img src="/img/icon/user.jpg" alt="">
         </div>
         <div class="user-profile-info">
             <div class="user-profile-name">Мой профиль</div>
@@ -9,15 +9,19 @@
         </div>
         <div class="user-profile-action-block">
             <div class="user-profile-action-wrap">
-                <a href="#" class="user-profile-action-button"><i class="fa fa-ellipsis-h"></i></a>
+                <a href="#" class="user-profile-action-button" data-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+                <ul class="user-profile-options-list dropdown-menu">
+                    <li><a data-fancybox data-src="#edit-profile-form" href="javascript:;"><i class="fa fa-pencil"></i> Редактировать</a></li>
+                    <li><a href="#"><i class="fa fa-sign-out"></i> Выйти</a></li>
+                </ul>
             </div>
         </div>
     </div>
-    <ul class="sidebar-menu-item-list">
+    <ul class="sidebar-menu-list">
         <li class="sidebar-menu-item-block">
             <div class="sidebar-menu-item-title">
                 <div class="text">Проекты
-                    <a href="#" class="add-button add-project"><i class="fa fa-plus-square-o"></i></a>
+                    <a href="create-project.html" class="add-button add-project"><i class="fa fa-plus-square-o"></i></a>
                 </div>
                 <i class="fa fa-angle-right"></i>
             </div>
@@ -67,6 +71,9 @@
                     </a>
                 </li>
             </ul>
+            <!--<div class="show-other-item-button">-->
+                <!--<a href="#" class="show-button button-down">Еще <span class="item-number"></span> <i class="fa fa-caret-down"></i></a>-->
+            <!--</div>-->
         </li>
         <li class="sidebar-menu-item-block">
             <div class="sidebar-menu-item-title">
@@ -114,15 +121,40 @@
         </li>
         <li class="sidebar-menu-item-block">
             <div class="sidebar-menu-item-title">
-                <div class="text">Сохраненные поиски</div>
+                <div class="text">Типы
+                    <a href="#" class="add-button add-tag"><i class="fa fa-plus-square-o"></i></a></div>
                 <i class="fa fa-angle-right"></i>
             </div>
+            <ul class="sidebar-menu-item-list tags-list">
+                <li>
+                    <a href="#">
+                        <div class="sidebar-menu-item-info">
+                            <span class="sidebar-menu-item-text">Разработка</span>
+                        </div>
+                        <div class="sidebar-menu-item-count">1</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-menu-item-info">
+                            <span class="sidebar-menu-item-text">Ошибка</span>
+                        </div>
+                        <div class="sidebar-menu-item-count">2</div>
+                    </a>
+                </li>
+            </ul>
         </li>
-        <li class="sidebar-menu-item-block">
-            <div class="sidebar-menu-item-title">
-                <div class="text">Фильтры</div>
-                <i class="fa fa-angle-right"></i>
-            </div>
-        </li>
+        <!--<li class="sidebar-menu-item-block">-->
+            <!--<div class="sidebar-menu-item-title">-->
+                <!--<div class="text">Сохраненные поиски</div>-->
+                <!--<i class="fa fa-angle-right"></i>-->
+            <!--</div>-->
+        <!--</li>-->
+        <!--<li class="sidebar-menu-item-block">-->
+            <!--<div class="sidebar-menu-item-title">-->
+                <!--<div class="text">Фильтры</div>-->
+                <!--<i class="fa fa-angle-right"></i>-->
+            <!--</div>-->
+        <!--</li>-->
     </ul>
 </div>

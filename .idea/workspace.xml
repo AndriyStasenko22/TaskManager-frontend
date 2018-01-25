@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f323376-5e92-44d2-99b2-e40a44375047" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icon/authorization-logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/create-task/create-task.html" afterPath="$PROJECT_DIR$/app/components/create-task/create-task.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/filter-panel/filter-panel.html" afterPath="$PROJECT_DIR$/app/components/filter-panel/filter-panel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html" afterPath="$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/search-panel/search-panel.html" afterPath="$PROJECT_DIR$/app/components/search-panel/search-panel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html" afterPath="$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/task-item/task-item.html" afterPath="$PROJECT_DIR$/app/components/task-item/task-item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/create-task.html" afterPath="$PROJECT_DIR$/app/create-task.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/comon.js" afterPath="$PROJECT_DIR$/app/js/comon.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="$PROJECT_DIR$/app/js/libs.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/base/_base.less" afterPath="$PROJECT_DIR$/app/less/base/_base.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/base/_libsCss.less" afterPath="$PROJECT_DIR$/app/less/base/_libsCss.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/components/_index.less" afterPath="$PROJECT_DIR$/app/less/components/_index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/components/create-task/_create-task.less" afterPath="$PROJECT_DIR$/app/less/components/create-task/_create-task.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/components/filter-panel/_filter-panel.less" afterPath="$PROJECT_DIR$/app/less/components/filter-panel/_filter-panel.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less" afterPath="$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/components/task-item/_task-item.less" afterPath="$PROJECT_DIR$/app/less/components/task-item/_task-item.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/pages/layout/_layout.less" afterPath="$PROJECT_DIR$/app/less/pages/layout/_layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/create-task.html" afterPath="$PROJECT_DIR$/app/page/create-task.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/index.html" afterPath="$PROJECT_DIR$/app/page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +38,8 @@
       <file leaf-file-name="comon.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/comon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="822">
+              <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -44,8 +48,8 @@
       <file leaf-file-name="_sidebar-menu.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="115" column="17" lean-forward="false" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="47" />
+            <state relative-caret-position="663">
+              <caret line="159" column="16" lean-forward="true" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -54,8 +58,8 @@
       <file leaf-file-name="_base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+            <state relative-caret-position="2720">
+              <caret line="160" column="33" lean-forward="false" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -64,8 +68,8 @@
       <file leaf-file-name="task-item.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/task-item/task-item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="544">
+              <caret line="32" column="126" lean-forward="false" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -76,19 +80,31 @@
       <file leaf-file-name="_filter-panel.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/less/components/filter-panel/_filter-panel.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="822">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/page/index.html">
+      <file leaf-file-name="personal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/page/personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            <state relative-caret-position="176">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="53" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_personal-item.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/less/components/personal-item/_personal-item.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <marker date="1516898309221" expanded="false" signature="1147:4137" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +112,8 @@
       <file leaf-file-name="filter-panel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/filter-panel/filter-panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+            <state relative-caret-position="357">
+              <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -106,9 +122,25 @@
       <file leaf-file-name="_task-item.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/less/components/task-item/_task-item.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="150" column="37" lean-forward="true" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+            <state relative-caret-position="839">
+              <caret line="194" column="28" lean-forward="false" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar-menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="45" />
+              <folding>
+                <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#1;n#ul#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +159,13 @@
       <find>#323a4a</find>
       <find>da</find>
       <find>task-item-filter-block</find>
+      <find>#505a6c</find>
+      <find>div</find>
+      <find>filter-action-button</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\OpenServer\domains\TaskManager-frontend\app\less</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,23 +186,38 @@
         <option value="$PROJECT_DIR$/app/less/base/_fonts.less" />
         <option value="$PROJECT_DIR$/app/less/components/navigation-panel/_navigation-panel.less" />
         <option value="$PROJECT_DIR$/app/less/main.less" />
-        <option value="$PROJECT_DIR$/app/less/pages/layout/_layout.less" />
         <option value="$PROJECT_DIR$/app/less/components/search-panel/_search-panel.less" />
         <option value="$PROJECT_DIR$/app/less/base/_variable.less" />
-        <option value="$PROJECT_DIR$/app/less/components/_index.less" />
-        <option value="$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/less/base/_libsCss.less" />
-        <option value="$PROJECT_DIR$/app/js/comon.js" />
-        <option value="$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html" />
-        <option value="$PROJECT_DIR$/app/less/components/create-task/_create-task.less" />
         <option value="$PROJECT_DIR$/app/components/search-panel/search-panel.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html" />
-        <option value="$PROJECT_DIR$/app/components/create-task/create-task.html" />
-        <option value="$PROJECT_DIR$/app/less/base/_base.less" />
-        <option value="$PROJECT_DIR$/app/components/task-item/task-item.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/components/modal_form/modal_form.html" />
+        <option value="$PROJECT_DIR$/app/page/registration.html" />
+        <option value="$PROJECT_DIR$/app/less/base/_libsCss.less" />
+        <option value="$PROJECT_DIR$/app/less/pages/layout/_layout.less" />
+        <option value="$PROJECT_DIR$/app/components/modal_form/login.html" />
+        <option value="$PROJECT_DIR$/app/create-task.html" />
+        <option value="$PROJECT_DIR$/app/components/modal_form/registration.html" />
         <option value="$PROJECT_DIR$/app/page/index.html" />
+        <option value="$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html" />
+        <option value="$PROJECT_DIR$/app/page/create-task.html" />
+        <option value="$PROJECT_DIR$/app/components/modal_form/edit-profile.html" />
+        <option value="$PROJECT_DIR$/app/less/components/modal_form/_modal_form.less" />
+        <option value="$PROJECT_DIR$/app/create-project.html" />
+        <option value="$PROJECT_DIR$/app/page/create-project.html" />
+        <option value="$PROJECT_DIR$/app/components/create-project/create-project.html" />
+        <option value="$PROJECT_DIR$/app/less/components/create-task/_create-task.less" />
+        <option value="$PROJECT_DIR$/app/components/create-task/create-task.html" />
+        <option value="$PROJECT_DIR$/app/page/tasks.html" />
+        <option value="$PROJECT_DIR$/app/tasks.html" />
+        <option value="$PROJECT_DIR$/app/less/components/_index.less" />
+        <option value="$PROJECT_DIR$/app/page/personal.html" />
+        <option value="$PROJECT_DIR$/app/less/components/personal-item/_personal-item.less" />
+        <option value="$PROJECT_DIR$/app/less/base/_base.less" />
+        <option value="$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html" />
+        <option value="$PROJECT_DIR$/app/js/comon.js" />
+        <option value="$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less" />
+        <option value="$PROJECT_DIR$/app/components/task-item/task-item.html" />
         <option value="$PROJECT_DIR$/app/less/components/filter-panel/_filter-panel.less" />
         <option value="$PROJECT_DIR$/app/components/filter-panel/filter-panel.html" />
         <option value="$PROJECT_DIR$/app/less/components/task-item/_task-item.less" />
@@ -189,8 +242,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="383" />
-    <option name="width" value="1457" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -208,6 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,20 +294,7 @@
               <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation-panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="search-panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="task-item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -274,34 +317,10 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="filter-panel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sidebar-menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="task-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskManager-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskManager-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,6 +344,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f323376-5e92-44d2-99b2-e40a44375047" name="Default" comment="" />
@@ -337,11 +359,12 @@
       <workItem from="1516693577810" duration="5790000" />
       <workItem from="1516700636128" duration="36000" />
       <workItem from="1516779408290" duration="27590000" />
+      <workItem from="1516864569164" duration="35957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62540000" />
+    <option name="totallyTimeSpent" value="98497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,7 +372,8 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21496312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -362,7 +386,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -378,114 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/pages/layout/_layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_mixin.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/pages/tasks/_tasks.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_fonts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_libsCss.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/less/base/_variable.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -556,22 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/pages/layout/_layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/components/_index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/less/components/search-panel/_search-panel.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -580,54 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_mixin.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_variable.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_libsCss.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="59" column="82" lean-forward="false" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
-          <folding>
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/search-panel/search-panel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,76 +490,299 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516811552333" expanded="false" signature="11446:11478" ph="..." />
-            <marker date="1516811552333" expanded="false" signature="11658:11690" ph="..." />
-            <marker date="1516811552333" expanded="false" signature="11872:11904" ph="..." />
-            <marker date="1516811552333" expanded="false" signature="12324:12351" ph="..." />
-            <marker date="1516811552333" expanded="false" signature="12679:12706" ph="..." />
-            <marker date="1516811552333" expanded="false" signature="13036:13063" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/components/create-task/_create-task.less">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1111">
-          <caret line="188" column="14" lean-forward="false" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+        <state relative-caret-position="-5">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/create-task/create-task.html">
+    <entry file="file://$PROJECT_DIR$/app/less/base/_variable.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="63" column="51" lean-forward="true" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/comon.js">
+    <entry file="file://$PROJECT_DIR$/app/less/base/_mixin.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
+    <entry file="file://$PROJECT_DIR$/app/components/modal_form/modal_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
-          <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/base/_libsCss.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/modal_form/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/create-task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516901696235" expanded="false" signature="8302:8328" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="8919:8945" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="9538:9564" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="14165:14197" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="14377:14409" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="14591:14623" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="15043:15069" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="15397:15423" ph="..." />
+            <marker date="1516901696235" expanded="false" signature="15753:15779" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page/create-task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="43" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/modal_form/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/create-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516901696220" expanded="true" signature="12976:14811" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="12976:14792" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="12976:13380" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13036:13353" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13432:13667" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13487:13667" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13544:13667" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13601:13667" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="12437:12644" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="12740:12973" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13030:13290" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13390:16002" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13468:14783" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13631:14744" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13693:14702" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="13826:13954" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="14057:14656" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="14130:14162" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="14342:14374" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="14556:14588" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="14863:15967" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="14934:15217" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="15008:15034" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="15288:15573" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="15362:15388" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="15644:15929" ph="..." />
+            <marker date="1516901696220" expanded="false" signature="15718:15744" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16066:16188" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16275:19331" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16340:18801" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16397:16915" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16606:16876" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="16972:17405" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="17167:17366" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="17462:18011" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="17675:17972" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="18068:18338" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="18395:18766" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="18632:18727" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="18865:19027" ph="..." />
+            <marker date="1516901696220" expanded="true" signature="19092:19300" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page/create-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/pages/layout/_layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/navigation-panel/navigation-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/create-task/create-task.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+          <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#1;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#2;n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/modal_form/edit-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/components/modal_form/_modal_form.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1516901696265" expanded="false" signature="8298:8324" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="8915:8941" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="9534:9560" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="18630:18655" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="22936:22961" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="27242:27267" ph="..." />
+            <marker date="1516901696265" expanded="false" signature="32479:32504" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/components/create-task/_create-task.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="199" column="32" lean-forward="false" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/components/_index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/create-project/create-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sidebar-menu/sidebar-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="45" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/comon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="159" column="16" lean-forward="true" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="33" lean-forward="false" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/task-item/task-item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="544">
+          <caret line="32" column="126" lean-forward="false" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -713,32 +791,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/less/components/filter-panel/_filter-panel.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="822">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/components/sidebar-menu/_sidebar-menu.less">
+    <entry file="file://$PROJECT_DIR$/app/page/personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="115" column="17" lean-forward="false" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="47" />
+        <state relative-caret-position="176">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/filter-panel/filter-panel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="357">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/less/components/personal-item/_personal-item.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1516898309221" expanded="false" signature="1147:4137" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/less/components/task-item/_task-item.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="150" column="37" lean-forward="true" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+        <state relative-caret-position="839">
+          <caret line="194" column="28" lean-forward="false" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
           <folding />
         </state>
       </provider>
